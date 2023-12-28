@@ -52,7 +52,7 @@
                 android:textStyle="bold" />
 
             <EditText
-                android:id="@+id/editTextText2"
+                android:id="@+id/UserId"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="40dp"
@@ -177,7 +177,7 @@
     </LinearLayout>
 
     <androidx.appcompat.widget.AppCompatButton
-        android:id="@+id/button2"
+        android:id="@+id/loginBtn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_weight="1"

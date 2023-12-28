@@ -13,6 +13,15 @@
         android:theme="@style/Theme.AcxiomConsulting"
         tools:targetApi="31">
         <activity
+            android:name=".Admin.MaintainVendor"
+            android:exported="false" />
+        <activity
+            android:name=".Admin.MaintainUser"
+            android:exported="false" />
+        <activity
+            android:name=".Admin.AdminHome"
+            android:exported="false" />
+        <activity
             android:name=".Admin.adminSignup"
             android:exported="false" />
         <activity
