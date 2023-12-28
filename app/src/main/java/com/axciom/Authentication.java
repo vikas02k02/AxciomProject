@@ -9,6 +9,8 @@ import android.widget.Button;
 import android.widget.EditText;
 
 import com.axciom.Admin.AdminHome;
+import com.axciom.User.UserPortal;
+import com.axciom.vendor.Homepage;
 
 public class Authentication extends AppCompatActivity {
     private EditText userId , Password ;
@@ -31,7 +33,7 @@ public class Authentication extends AppCompatActivity {
                 if(role.equals("User")){
                     if(userName.equals("") && pass.equals("")){
 
-                        Intent intent = new Intent(getApplicationContext() ,UserPortal.class);
+                        Intent intent = new Intent(getApplicationContext() , UserPortal.class);
                         startActivity(intent);
                     }
                 }else if ( role.equals("Admin")){
