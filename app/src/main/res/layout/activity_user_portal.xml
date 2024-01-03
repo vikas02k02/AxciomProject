@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#9A9393"
+    android:background="@drawable/back"
     tools:context=".User.UserPortal">
 
 
@@ -12,11 +12,11 @@
         android:id="@+id/textView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginStart="20dp"
+        android:layout_marginStart="40dp"
         android:layout_marginTop="40dp"
-        android:layout_marginEnd="20dp"
+        android:layout_marginEnd="40dp"
         android:layout_marginBottom="29dp"
-        android:background="#0725B8"
+        android:background="#AAB2DC"
         android:gravity="center"
         android:padding="10dp"
         android:text="Welcome User"
@@ -45,62 +45,60 @@
 
 
             <Spinner
-                android:id="@+id/spinner"
+                android:id="@+id/VendorDrop"
                 android:layout_width="190dp"
                 android:layout_height="54dp"
                 android:layout_gravity="left"
                 android:layout_marginStart="20dp"
                 android:layout_marginTop="20dp"
                 android:layout_marginBottom="20dp"
-                android:background="#0725B8"
-                android:gravity="left" />
+                android:background="#AAB2DC"
+                android:gravity="center" />
         </LinearLayout>
 
 
 
 
         <androidx.appcompat.widget.AppCompatButton
-            android:id="@+id/button11"
+            android:id="@+id/UserCart"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginStart="20dp"
             android:layout_marginEnd="200dp"
             android:layout_marginBottom="20dp"
-
-
-            android:background="#0725B8"
+            android:background="#AAB2DC"
             android:text="Cart" />
 
 
         <androidx.appcompat.widget.AppCompatButton
-            android:id="@+id/button12"
+            android:id="@+id/UserGuestList"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginStart="20dp"
             android:layout_marginEnd="200dp"
             android:layout_marginBottom="20dp"
-            android:background="#0725B8"
+            android:background="#AAB2DC"
             android:text="Guest List" />
 
 
         <androidx.appcompat.widget.AppCompatButton
-            android:id="@+id/button10"
+            android:id="@+id/orderStatus"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginStart="20dp"
             android:layout_marginEnd="200dp"
-            android:background="#0725B8"
+            android:background="#AAB2DC"
             android:text="Order Status" />
 
 
         <androidx.appcompat.widget.AppCompatButton
-            android:id="@+id/button14"
+            android:id="@+id/UserLogOut"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginStart="200dp"
             android:layout_marginTop="40dp"
             android:layout_marginEnd="20dp"
-            android:background="#0725B8"
+            android:background="#AAB2DC"
             android:text="LogOut" />
     </LinearLayout>
 

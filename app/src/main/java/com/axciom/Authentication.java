@@ -31,19 +31,19 @@ public class Authentication extends AppCompatActivity {
                 String userName = userId.getText().toString();
                 String pass = Password.getText().toString();
                 if(role.equals("User")){
-                    if(userName.equals("") && pass.equals("")){
+                    if(userName.equals("User") && pass.equals("User")){
 
                         Intent intent = new Intent(getApplicationContext() , UserPortal.class);
                         startActivity(intent);
                     }
                 }else if ( role.equals("Admin")){
-                    if(userName.equals("") && pass.equals("")){
+                    if(userName.equals("Admin") && pass.equals("Admin")){
 
                         Intent intent = new Intent(getApplicationContext() , AdminHome.class);
                         startActivity(intent);
                     }
                 } else if (role.equals("Vendor")) {
-                    if(userName.equals("") && pass.equals("")){
+                    if(userName.equals("Vendor") && pass.equals("Vendor")){
 
                         Intent intent = new Intent(getApplicationContext() , Homepage.class);
                         startActivity(intent);

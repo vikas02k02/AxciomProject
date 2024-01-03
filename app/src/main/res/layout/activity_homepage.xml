@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#00BCD4"
+    android:background="@drawable/back"
     tools:context="vendor.Homepage">
 
 
@@ -68,7 +68,7 @@
 
 
     <androidx.appcompat.widget.AppCompatButton
-        android:id="@+id/button21"
+        android:id="@+id/VendorLogOut"
         android:layout_width="143dp"
         android:layout_height="67dp"
         android:background="#E6DFDF"
